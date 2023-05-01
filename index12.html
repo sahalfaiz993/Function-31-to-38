@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function longestnumber(str) {
+        var jo = str.split(' ')
+        var longest = ' '
+        for (var i = 0; i < jo.length; i++) {
+            if (jo[i].length > longest.length) {
+                longest = jo[i]
+            }
+        }
+        return longest
+    }
+    document.write(longestnumber(" is a goodjexor boy hasaan "))
+</script>
+</body>
+</html>
